@@ -1,0 +1,26 @@
+# Design doc (local only)
+redmagic_wallet_trigger_design.md
+
+# Gradle / Android
+.gradle/
+build/
+/local.properties
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Release signing
+keystore.properties
+*.jks
+*.keystore
+
+# Affinity の元データ (作者名などのメタデータを含むため公開しない)
+*.af
+*.af~lock~

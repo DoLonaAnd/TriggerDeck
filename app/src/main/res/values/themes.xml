@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.TriggerDeck" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#FFFCF8F8</item>
+    </style>
+</resources>

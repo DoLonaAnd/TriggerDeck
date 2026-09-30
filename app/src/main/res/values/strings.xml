@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TriggerDeck</string>
+    <string name="accessibility_service_label">TriggerDeck</string>
+    <string name="accessibility_service_description">ゲーミングスマホのショルダートリガーと電源ボタンの操作を検出し、割り当てたアクション (Google Wallet・カメラの起動など) を実行します。取得するのはトリガーのキー入力と前面アプリのパッケージ名のみで、画面の内容・入力した文字・決済情報にはアクセスせず、端末の外にも送信しません。</string>
+    <string name="wallet_not_installed">Google Walletがインストールされていません</string>
+    <string name="wallet_launch_failed">Google Walletを起動できませんでした</string>
+    <string name="app_not_found">%1$s が見つかりません</string>
+</resources>
