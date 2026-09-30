@@ -5,4 +5,6 @@
     <string name="wallet_not_installed">Google Walletがインストールされていません</string>
     <string name="wallet_launch_failed">Google Walletを起動できませんでした</string>
     <string name="app_not_found">%1$s が見つかりません</string>
+    <!-- 紹介ページ (Web) との関連付け。AndroidManifest の asset_statements から参照する -->
+    <string name="asset_statements" translatable="false">[{\"relation\":[\"delegate_permission/common.handle_all_urls\"],\"target\":{\"namespace\":\"web\",\"site\":\"https://apps.dolonaand.net\"}},{\"relation\":[\"delegate_permission/common.handle_all_urls\"],\"target\":{\"namespace\":\"web\",\"site\":\"https://triggerdeck.vercel.app\"}}]</string>
 </resources>

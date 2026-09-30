@@ -20,12 +20,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TriggerDeck">
 
+        <!-- 紹介ページ (navigator.getInstalledRelatedApps) から「インストール済み」と判定できるよう、関連サイトを宣言する -->
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- 紹介ページの「アプリを開く」ボタン用 (triggerdeck://open)。メイン画面を開くだけ -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="triggerdeck" android:host="open" />
             </intent-filter>
         </activity>
 
